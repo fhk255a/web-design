@@ -1,39 +1,4 @@
-# egg-react-webpack-boilerplate
-
-基于 Egg + React + Webpack 多页面服务端渲染同构工程骨架项目
-
-## 文档
-
-- http://hubcarl.github.io/easywebpack/react/rule
-- https://zhuanlan.zhihu.com/easywebpack
-
-## 特性
-
-- 基于 React 多页面服务端客户端同构实现
-
-- 支持 server 和 client 端代码修改, webpack时时编译和热更新, `npm start` 一键启动应用
-
-- 支持服务端渲染 `render` 和纯前端渲染 `renderClient`
-
-- 支持自动根据 jsx 文件构建 webpack entry 入口文件
-
-- easywebpack ^3.5.0 版本开始支持 webpack dll 自动化构建, 与多进程编译结合，构建速度减少 2/3
-
-- Node 8 版本的 async 和 await 特性, Controller 采用 class 方式编写
-
-- 支持国际化多语言
-
-
-## 依赖
-
-- [easywebpack](https://github.com/hubcarl/easywebpack) ^3.5.3
-- [easywebpack-react](https://github.com/hubcarl/easywebpack-react) ^3.5.0
-- [egg-view-react-ssr](https://github.com/hubcarl/egg-view-react-ssr) ^2.1.0
-- [egg-webpack](https://github.com/hubcarl/egg-webpack) ^2.4.6
-- [egg-webpack-react](https://github.com/hubcarl/egg-webpack-react) ^2.0.0
-
-![工程化](http://hubcarl.github.io/img/webpack/egg-webpack-react-ssr.png)
-
+# web-design 设计平台
 
 ## 使用
 
