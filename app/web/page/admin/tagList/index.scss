@@ -1,0 +1,106 @@
+.admin-tag-list-page {
+  background: #fff;
+  padding: 20px;
+
+  .form-search {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    .form-item {
+      display: flex;
+      align-items: center;
+
+      .form-item-label {
+        color: #333;
+      }
+
+      .form-item-content {
+        width: 300px;
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+
+    .ant-btn {
+      padding: 0 20px;
+    }
+  }
+
+  .tag-list-table {
+    th {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .ant-table-row {
+      text-align: center;
+
+      td {
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+
+    .option-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .ant-switch {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.tag-modal-container {
+  .form-item {
+    display: flex;
+    margin-bottom: 14px;
+    align-items: center;
+
+    .form-item-content {
+      flex: 1;
+    }
+
+    .form-item-label,
+    .form-item-content {
+      line-height: 1.5;
+    }
+
+    .ant-select {
+      width: 100%;
+    }
+
+    .form-item-label {
+      width: 20%;
+      flex-shrink: 0;
+      text-align: right;
+    }
+  }
+
+
+  .sort-form {
+    .ant-input {
+      width: 150px;
+    }
+  }
+
+  .avatar-uploader {
+    .ant-upload {
+      margin-bottom: 0;
+    }
+  }
+}

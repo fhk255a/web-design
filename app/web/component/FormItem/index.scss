@@ -1,0 +1,25 @@
+.form-item {
+  display: flex;
+  margin-bottom: 14px;
+  align-items: center;
+
+  .form-item-content {
+    flex: 1;
+  }
+
+  .form-item-label,
+  .form-item-content {
+    line-height: 1.5;
+  }
+
+  .ant-select {
+    width: 100%;
+  }
+
+  .form-item-label {
+    width: 20%;
+    flex-shrink: 0;
+    font-size: 14px;
+    text-align: right;
+  }
+}

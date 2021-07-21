@@ -1,0 +1,35 @@
+$login-bg:#002140;
+
+.login-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: $login-bg;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 40px 40px 20px;
+
+    .login-btn {
+      margin-bottom: 0;
+      text-align: center;
+
+      .ant-col {
+        width: 100%;
+      }
+
+      .ant-btn-primary {
+        padding-left: 26px;
+        padding-right: 26px;
+      }
+    }
+  }
+}

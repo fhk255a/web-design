@@ -1,0 +1,19 @@
+.word-page{
+  >.container{
+    width: 1000px;
+    margin: 0 auto;
+    .ant-pagination{
+      text-align: right;
+    }
+  }
+  .word-lists {
+    padding: 24px 0;
+    display: flex;
+    max-width: 80vw;
+  
+    .word-card {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}

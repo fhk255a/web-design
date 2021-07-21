@@ -1,0 +1,108 @@
+.contact-page {
+  >.container {
+    color: #333;
+    width: 1000px;
+    margin: 24px auto 0;
+
+    .hd {
+      font-weight: bold;
+    }
+
+    .f-z-30 {
+      font-size: 30px;
+    }
+
+    .f-s-24 {
+      font-size: 24px;
+    }
+
+    .userinfo-info {
+
+      .userinfo-info-item {
+        display: flex;
+        margin: 10px;
+        width: 100%;
+        flex-shrink: 0;
+        flex: 1;
+        line-height: 40px;
+        align-items: center;
+
+        .userinfo-info-item-f1 {
+          width: 300px;
+        }
+      }
+    }
+
+    .pr {
+      border-radius: 8px;
+      padding: 16px;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+
+    .hd {
+      margin-top: 20px;
+    }
+
+    .time {
+      font-size: 16px;
+      color: brown;
+      margin: 10px;
+    }
+
+    .c-name {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    .c-sub-name {
+      font-size: 16px;
+      margin: 10px;
+
+      li {
+        font-size: 14px;
+        margin: 5px;
+        text-indent: 1em;
+      }
+    }
+
+    .work-item {
+      margin-bottom: 40px;
+    }
+
+
+    .jineng {
+      display: flex;
+      flex-wrap: wrap;
+      text-indent: 1em;
+
+      .jineng-item {
+        width: 40%;
+        flex-shrink: 0;
+        margin: 10px 0;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+
+        .label {
+          margin-right: 10px;
+          width: 60px;
+        }
+      }
+
+      .jineng-wrap {
+        height: 20px;
+        border-radius: 10px;
+        width: 100%;
+        background: #eee;
+        border: 1px solid #999;
+        overflow: hidden;
+      }
+
+      .jineng-dot {
+        height: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+}

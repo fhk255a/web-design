@@ -1,0 +1,17 @@
+@import '~/asset/css/common.scss';
+$body-bg:#f4f4f4;
+
+.layout,
+body {
+  background: $body-bg;
+}
+
+td {
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.5;
+  padding-bottom: 16px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

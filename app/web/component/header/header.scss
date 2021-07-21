@@ -1,0 +1,36 @@
+// @import "../../asset/css/global.css";
+$nav-color-active:#333;
+$nav-color:#999;
+$shadow-color:rgba(7, 17, 37, .1);
+
+.header {
+  background: #fff;
+  box-shadow: 0 1px 4px 1px $shadow-color;
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .nav-list {
+      display: flex;
+
+      .nav-list-item {
+        font-size: 16px;
+        padding: 15px 0;
+        margin: 0 20px;
+        color: $nav-color;
+        cursor: pointer;
+
+        &:hover {
+          border-bottom: 3px solid $nav-color-active;
+          color: $nav-color-active;
+        }
+
+        &.active {
+          border-bottom: 3px solid $nav-color-active;
+          color: $nav-color-active;
+        }
+      }
+    }
+  }
+}
